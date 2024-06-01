@@ -25,7 +25,7 @@ proxies:
       headers:
     Host: trojan-dis-nl01.globalssh.xyz
     udp: true
-  - name: trojan indo
+  - name: trojan sg2
     server: 104.26.6.171
     port: 443
     type: trojan
