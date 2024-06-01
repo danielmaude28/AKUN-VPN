@@ -1,0 +1,40 @@
+proxies:
+  - name: ilped trojan
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 462ffdd3-82f0-4a8a-886d-c86924c5e087
+    skip-cert-verify: true
+    sni: sg01.iptr.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg01.iptr.xyz
+    udp: true
+  - name: trojan
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: f0d6dbaa-cbb4-4e01-9874-d3d0930bf678
+    skip-cert-verify: true
+    sni: trojan-dis-nl01.globalssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: trojan-dis-nl01.globalssh.xyz
+    udp: true
+  - name: trojan indo
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 54d571ba-9634-4657-933b-9515e291d182
+    skip-cert-verify: true
+    sni: nns-id01.iptr.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: nns-id01.iptr.xyz
+    udp: true
