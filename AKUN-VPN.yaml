@@ -10,7 +10,7 @@ proxies:
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: sg01.iptr.xyz
+    Host: sg01.iptr.xyz
     udp: true
   - name: trojan
     server: 104.26.6.171
@@ -23,18 +23,18 @@ proxies:
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: trojan-dis-nl01.globalssh.xyz
+    Host: trojan-dis-nl01.globalssh.xyz
     udp: true
   - name: trojan indo
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: 54d571ba-9634-4657-933b-9515e291d182
+    password: 35a2efa8-4635-4e32-8ae2-51926489b303
     skip-cert-verify: true
-    sni: nns-id01.iptr.xyz
+    sni: trojan-sg01.globalssh.xyz
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: nns-id01.iptr.xyz
+        Host: trojan-sg01.globalssh.xyz
     udp: true
